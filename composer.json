@@ -1,0 +1,26 @@
+{
+    "name": "uxmill/module-bodystorecode",
+    "description": "",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "email": "info@mage2gen.com",
+            "name": "Mage2Gen"
+        },
+        {
+            "email": "dsguptas@gmail.com",
+            "name": "Durga Shankar Gupta"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Uxmill\\BodyStoreCode\\": ""
+        }
+    }
+}
